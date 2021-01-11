@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="555.0" prefWidth="792.0" style="-fx-background-color: #CCD9EA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TuSap2.gui.SellController">
+    <children>
+        <TableView fx:id="table" layoutX="210.0" layoutY="28.0" prefHeight="238.0" prefWidth="584.0" style="-fx-background-color: #4A6F5A;">
+            <columns>
+                <TableColumn fx:id="col_idUser" prefWidth="71.0" text="User ID" />
+                <TableColumn fx:id="col_firstName" prefWidth="154.0" text="First Name" />
+                <TableColumn fx:id="col_lastName" prefWidth="160.0" text="Last Name" />
+                <TableColumn fx:id="col_email" prefWidth="188.0" text="Email" />
+            </columns>
+        </TableView>
+        <Label layoutX="30.0" layoutY="164.0" text="Enter a user id:" underline="true" />
+        <Button fx:id="removeButton" layoutX="28.0" layoutY="394.0" mnemonicParsing="false" onAction="#sell" prefHeight="30.0" prefWidth="157.0" style="-fx-background-color: #4A6F5A;" text="Sell" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <Label fx:id="deleteMessage" alignment="CENTER" layoutX="28.0" layoutY="365.0" prefHeight="17.0" prefWidth="157.0" textFill="#39b248" />
+        <TableView fx:id="table2" layoutX="210.0" layoutY="287.0" prefHeight="238.0" prefWidth="584.0" style="-fx-background-color: #4A6F5A;">
+            <columns>
+                <TableColumn fx:id="col_id2" prefWidth="68.0" text="Product ID" />
+                <TableColumn fx:id="col_productName" prefWidth="89.0" text="Product Name" />
+                <TableColumn fx:id="col_productType" prefWidth="106.0" text="Product Type" />
+                <TableColumn fx:id="col_productBrand" prefWidth="123.0" text="Product Brand" />
+                <TableColumn fx:id="col_productPrice" prefWidth="106.0" text="Product Price" />
+                <TableColumn fx:id="col_productQuantity" prefWidth="106.0" text="Quantity" />
+            </columns>
+        </TableView>
+        <Label layoutX="29.0" layoutY="229.0" text="Enter a product id:" underline="true" />
+        <Label layoutX="30.0" layoutY="298.0" text="Enter  product quantity:" underline="true" />
+        <Label fx:id="messageLabel" layoutX="35.0" layoutY="439.0" prefHeight="17.0" prefWidth="149.0" />
+        <ComboBox fx:id="comboUserId" layoutX="28.0" layoutY="190.0" prefHeight="25.0" prefWidth="157.0" />
+        <ComboBox fx:id="comboProductId" layoutX="28.0" layoutY="253.0" prefHeight="25.0" prefWidth="157.0" />
+        <TextField fx:id="fieldQuantity" layoutX="32.0" layoutY="321.0" />
+      <ImageView fitHeight="115.0" fitWidth="139.0" layoutX="36.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Desktop/sell.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

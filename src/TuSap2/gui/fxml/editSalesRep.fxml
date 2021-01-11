@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CCD9EA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TuSap2.gui.EditSalesRepController">
+    <children>
+        <TableView fx:id="table" layoutX="213.0" prefHeight="257.0" prefWidth="541.0" style="-fx-background-color: #4A6F5A;">
+            <columns>
+                <TableColumn fx:id="col_id" prefWidth="74.0" text="Sales Rep ID" />
+                <TableColumn fx:id="col_firstName" prefWidth="109.0" text="First name" />
+                <TableColumn fx:id="col_lastName" prefWidth="116.0" text="Last Name" />
+                <TableColumn fx:id="col_UserName" prefWidth="121.0" text="Username" />
+                <TableColumn fx:id="col_Password" prefWidth="122.0" text="Password" />
+            </columns>
+        </TableView>
+        <Label layoutX="27.0" layoutY="138.0" text="Enter a user id you would like " />
+        <Label layoutX="28.0" layoutY="162.0" text="to edit from the database:" />
+        <TextField fx:id="idField" layoutX="32.0" layoutY="188.0" />
+        <Button fx:id="editButton" layoutX="28.0" layoutY="265.0" mnemonicParsing="false" onAction="#editSPonAction" prefHeight="30.0" prefWidth="157.0" style="-fx-background-color: #4A6F5A;" text="Edit" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <Label fx:id="deleteMessage" layoutX="28.0" layoutY="352.0" prefHeight="17.0" prefWidth="157.0" />
+        <ImageView fitHeight="117.0" fitWidth="135.0" layoutX="48.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@remove-user.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="firstnameField" layoutX="213.0" layoutY="281.0" />
+        <TextField fx:id="lastnameField" layoutX="213.0" layoutY="339.0" />
+        <TextField fx:id="usernameField" layoutX="484.0" layoutY="281.0" />
+        <Label fx:id="firstnameLabel" layoutX="213.0" layoutY="263.0" text="Enter new first name" underline="true" />
+        <Label fx:id="lastnameLabel" layoutX="212.0" layoutY="323.0" text="Enter new  last name" underline="true" />
+        <Label fx:id="usernameLabel" layoutX="484.0" layoutY="263.0" text="Enter new username" underline="true" />
+        <TextField fx:id="PasswordField" layoutX="484.0" layoutY="339.0" />
+        <Label fx:id="passwordLabel" layoutX="485.0" layoutY="323.0" text="Enter new password" underline="true" />
+        <Button fx:id="editButton1" layoutX="28.0" layoutY="302.0" mnemonicParsing="false" onAction="#viewAll" prefHeight="30.0" prefWidth="157.0" style="-fx-background-color: #4A6F5A;" text="View All" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="updateTableButt" layoutX="27.0" layoutY="227.0" mnemonicParsing="false" onAction="#updateTable" prefHeight="25.0" prefWidth="159.0" style="-fx-background-color: #4A6F5A;" text="Update Table" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <Button fx:id="close" layoutX="28.0" layoutY="337.0" mnemonicParsing="false" onAction="#closeButtonOnAction" prefHeight="30.0" prefWidth="157.0" style="-fx-background-color: #A12725;" text="Close" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <ImageView fitHeight="94.0" fitWidth="122.0" layoutX="36.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Desktop/salesRep1.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

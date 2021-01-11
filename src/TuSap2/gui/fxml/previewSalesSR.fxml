@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="messageLabel" prefHeight="587.0" prefWidth="725.0" style="-fx-background-color: #CCD9EA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TuSap2.gui.PreviewSalesSRController">
+    <children>
+        <TableView fx:id="table" layoutX="213.0" prefHeight="329.0" prefWidth="510.0" style="-fx-background-color: #4A6F5A;">
+            <columns>
+                <TableColumn fx:id="col_salesID" prefWidth="63.0" text="Sale ID" />
+                <TableColumn fx:id="col_date" prefWidth="84.0" text="Date" />
+                <TableColumn fx:id="col_productName" prefWidth="116.0" text="Product Name" />
+                <TableColumn fx:id="col_Quantity" prefWidth="123.0" text="Quantity" />
+                <TableColumn fx:id="col_finalPrice" prefWidth="123.0" text="Final Price" />
+            </columns>
+        </TableView>
+        <Label layoutX="28.0" layoutY="138.0" text="Enter a sale id you would like " underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="28.0" layoutY="162.0" text="to preview in detail:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="28.0" layoutY="223.0" mnemonicParsing="false" onAction="#previewDetails" style="-fx-background-color: #4A6F5A;" text="Preview Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+        <Label layoutX="290.0" layoutY="356.0" text="Product ID:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productId" layoutX="290.0" layoutY="373.0" prefHeight="17.0" prefWidth="171.0" />
+        <Label layoutX="290.0" layoutY="390.0" text="Product Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productName" layoutX="290.0" layoutY="407.0" prefHeight="18.0" prefWidth="210.0" />
+        <Label layoutX="290.0" layoutY="424.0" text="Product Type:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productType" layoutX="290.0" layoutY="441.0" prefHeight="17.0" prefWidth="157.0" />
+        <Label layoutX="290.0" layoutY="458.0" text="Product Brand:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productBrand" layoutX="290.0" layoutY="475.0" prefHeight="17.0" prefWidth="163.0" />
+        <Label layoutX="290.0" layoutY="492.0" text="Product Singe Price:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productPrice" layoutX="290.0" layoutY="509.0" prefHeight="17.0" prefWidth="106.0" />
+        <Label layoutX="290.0" layoutY="526.0" text="Product quantity In Stock:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="productQuantity" layoutX="290.0" layoutY="543.0" prefHeight="17.0" prefWidth="163.0" />
+        <Label layoutX="553.0" layoutY="373.0" text="User ID:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="userId" layoutX="553.0" layoutY="390.0" prefHeight="17.0" prefWidth="116.0" />
+        <Label layoutX="553.0" layoutY="407.0" text="User First Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="userFirstName" layoutX="553.0" layoutY="424.0" prefHeight="17.0" prefWidth="126.0" />
+        <Label layoutX="553.0" layoutY="441.0" text="User Last Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="553.0" layoutY="475.0" text="User Email:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="userLastName" layoutX="553.0" layoutY="458.0" prefHeight="17.0" prefWidth="104.0" />
+        <Label fx:id="userEmail" layoutX="553.0" layoutY="492.0" prefHeight="17.0" prefWidth="116.0" />
+        <TextField fx:id="idField" layoutX="28.0" layoutY="190.0" />
+        <Label layoutX="32.0" layoutY="263.0" prefHeight="17.0" prefWidth="149.0" />
+      <ImageView fitHeight="125.0" fitWidth="148.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Desktop/sales.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
