@@ -34,36 +34,66 @@
                 <Font name="System Bold" size="12.0" />
             </font></Label>
         <Label fx:id="spId" layoutX="213.0" layoutY="381.0" prefHeight="17.0" prefWidth="192.0" />
-        <Label layoutX="213.0" layoutY="398.0" text="Sales Representative First Name:" underline="true" />
+        <Label layoutX="213.0" layoutY="398.0" text="Sales Representative First Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="spFirstName" layoutX="213.0" layoutY="415.0" prefHeight="17.0" prefWidth="172.0" />
-        <Label layoutX="213.0" layoutY="432.0" text="Sales Representative Last Name:" underline="true" />
+        <Label layoutX="213.0" layoutY="432.0" text="Sales Representative Last Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="spLastName" layoutX="213.0" layoutY="449.0" prefHeight="17.0" prefWidth="172.0" />
         <Label layoutX="512.0" layoutY="364.0" text="Product ID:" underline="true">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font></Label>
         <Label fx:id="productId" layoutX="512.0" layoutY="381.0" prefHeight="17.0" prefWidth="171.0" />
-        <Label layoutX="512.0" layoutY="398.0" text="Product Name:" underline="true" />
+        <Label layoutX="512.0" layoutY="398.0" text="Product Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="productName" layoutX="512.0" layoutY="415.0" prefHeight="17.0" prefWidth="104.0" />
-        <Label layoutX="512.0" layoutY="432.0" text="Product Type:" underline="true" />
+        <Label layoutX="512.0" layoutY="432.0" text="Product Type:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="productType" layoutX="512.0" layoutY="449.0" prefHeight="17.0" prefWidth="157.0" />
-        <Label layoutX="512.0" layoutY="466.0" text="Product Brand:" underline="true" />
+        <Label layoutX="512.0" layoutY="466.0" text="Product Brand:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="productBrand" layoutX="512.0" layoutY="483.0" prefHeight="17.0" prefWidth="163.0" />
-        <Label layoutX="512.0" layoutY="500.0" text="Product Singe Price:" underline="true" />
+        <Label layoutX="512.0" layoutY="500.0" text="Product Singe Price:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="productPrice" layoutX="512.0" layoutY="517.0" prefHeight="17.0" prefWidth="106.0" />
-        <Label layoutX="512.0" layoutY="534.0" text="Product quantity In Stock:" underline="true" />
+        <Label layoutX="512.0" layoutY="534.0" text="Product quantity In Stock:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="productQuantity" layoutX="512.0" layoutY="551.0" prefHeight="17.0" prefWidth="163.0" />
-        <Label layoutX="700.0" layoutY="364.0" text="User ID:" underline="true">
+        <Label layoutX="700.0" layoutY="364.0" text="Client ID:" underline="true">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Label>
         <Label fx:id="userId" layoutX="700.0" layoutY="381.0" prefHeight="17.0" prefWidth="116.0" />
-        <Label layoutX="700.0" layoutY="398.0" text="User First Name:" underline="true" />
+        <Label layoutX="700.0" layoutY="398.0" text="Client First Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="userFirstName" layoutX="700.0" layoutY="415.0" prefHeight="17.0" prefWidth="126.0" />
-        <Label layoutX="700.0" layoutY="432.0" text="User Last Name:" underline="true" />
-        <Label layoutX="700.0" layoutY="466.0" text="User Email:" underline="true" />
+        <Label layoutX="700.0" layoutY="432.0" text="Client Last Name:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="700.0" layoutY="466.0" text="Client Email:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <Label fx:id="userLastName" layoutX="700.0" layoutY="449.0" prefHeight="17.0" prefWidth="104.0" />
-        <Label fx:id="userEmail" layoutX="705.0" layoutY="483.0" prefHeight="17.0" prefWidth="116.0" />
+        <Label fx:id="userEmail" layoutX="700.0" layoutY="483.0" prefHeight="17.0" prefWidth="116.0" />
         <TextField fx:id="idField" layoutX="32.0" layoutY="189.0" />
         <Label layoutX="32.0" layoutY="263.0" prefHeight="17.0" prefWidth="149.0" />
       <ImageView fitHeight="117.0" fitWidth="137.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">

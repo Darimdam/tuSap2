@@ -14,7 +14,7 @@
     <left>
         <AnchorPane prefHeight="407.0" prefWidth="230.0" style="-fx-background-color: #4a6f5a;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="27.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView blendMode="SRC_ATOP" fitHeight="160.0" fitWidth="231.0" layoutX="28.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../Desktop/login.png" />
                </image>

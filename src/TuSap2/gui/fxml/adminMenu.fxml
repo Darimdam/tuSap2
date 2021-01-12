@@ -36,15 +36,15 @@
             <font>
                 <Font name="System Bold" size="14.0" />
             </font></Button>
-        <Button fx:id="addProduct" layoutX="336.0" layoutY="115.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Add Product" textFill="WHITE">
+        <Button fx:id="addProduct" alignment="CENTER" layoutX="336.0" layoutY="115.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Add Product" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font></Button>
-        <Button layoutX="336.0" layoutY="181.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Remove Product" textFill="WHITE">
+        <Button alignment="CENTER" layoutX="336.0" layoutY="181.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Remove Product" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font></Button>
-        <Button layoutX="336.0" layoutY="251.0" mnemonicParsing="false" onAction="#editProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Edit Product" textFill="WHITE">
+        <Button alignment="CENTER" layoutX="336.0" layoutY="251.0" mnemonicParsing="false" onAction="#editProduct" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: #4A6F5A;" text="Edit Product" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font></Button>

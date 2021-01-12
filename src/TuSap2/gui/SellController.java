@@ -94,7 +94,8 @@ public class SellController implements Initializable {
         col_email.setCellValueFactory(new PropertyValueFactory<>("email"));
 
         table.setItems(oblist);
-        //-----------------------------------------------------------
+
+
 
         ProductDB productDB = new ProductDB();
         ResultSet rs1 = null;
@@ -156,7 +157,7 @@ public class SellController implements Initializable {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        if(productQuantity-quantity==0){
+        if(productQuantity>quantity){
             deleteMessage.setText("Insufficient quantity");
         }else{
             finalPrice=Double.parseDouble(price)*productQuantity;
